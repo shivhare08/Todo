@@ -1,0 +1,143 @@
+.parentmotivation h4{
+    font-family:sans-serif ;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* .parentmotivation h5{
+    
+    font-family:serif ;
+    
+} */
+
+.inputBox .row{
+    width: 30%;
+    height: 20px;
+    border-radius: 5px;
+    /* background-color: rgb(230, 230, 236); */
+}
+
+.footer{
+    background-color: black;
+    margin-top: 25%;
+}
+
+.footer p{
+    color: white;
+    font-family: serif;
+}
+
+/* JS */
+
+/* H6 */
+.styleelement{
+    color: rgb(244, 244, 244);
+    font-family:sans-serif;
+    /* margin-top: 12px; */
+    flex-grow: 1;
+    margin-top: 11px;
+    font-size: 16px;
+    
+}
+
+.hastags a{
+    color: rgba(142, 143, 147, 0.741);
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+/* DIV */
+.js{ 
+    /* margin-top: 8%; */
+    width: 50%;
+    height: 40px;
+    flex-grow: 1;
+    padding-top: 4%;
+    display: flex;
+    margin: 0 auto;
+    /* border: 0.5px solid rgb(202, 183, 183); */
+}
+
+/* BUTTON */
+.jsbuttondelete{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: serif;
+    justify-content: flex-start;
+    height: 31px;
+    margin-top: 4px;
+    width: 70px;
+}
+
+.jsbuttonedit{
+    border-radius: 4px;
+    background-color: #ffc107;
+    color: #000000;
+    font-family: serif;
+    justify-content: flex-start;
+    height: 31px;
+    margin-top: 4px;
+    width: 70px;
+}
+
+.jsbuttondes{
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #020202;
+    font-family: serif;
+    justify-content: flex-start;
+    height: 31px;
+    margin-top: 4px;
+    width: 70px;
+}
+
+.pelement{
+    color: rgb(244, 244, 244);
+    font-family: sans-serif;
+    margin-top: 20px;
+    flex-grow: 1;
+    text-decoration:dotted;
+    margin-top: 6px;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media(max-width:991.5px){
+	.inputBox .row{
+        width: 60%;
+    }
+
+    .parentmotivation{
+        margin-top: 14%;
+    }
+}
+    
+
+@media(max-width : 504px){
+    .parentmotivation h4{
+        font-size: 17px;
+    }
+
+    .footer p{
+        font-size: 13px;
+    }
+
+    .inputBox .row{
+        width: 70%;
+    }
+    .parentmotivation{
+        margin-top: 12%;
+    }
+}
+
+@media(max-width:425px){
+    .parentmotivation h4{
+        font-size: 15px;
+    }
+}
+
